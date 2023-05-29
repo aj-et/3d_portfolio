@@ -7,6 +7,8 @@
     - To install package `npm install -D tailwindcss`
     - To initialize package `npx tailwindcss init`
  - These are react based 3js library to allow 3js code in a react fashion `npm install --legacy--peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom`
+  - For peer dependencies `npm install --legacy-peer-deps -D postcss autoprefixer`
+  - Then type `npx tailwindcss init -p`
 
  # To run application
   - `npm run dev`
