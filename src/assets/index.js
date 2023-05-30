@@ -9,8 +9,6 @@ import close from "./close.svg";
 import chrome from "./chrome.png"
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -22,15 +20,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import byui from "./company/byui.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import studioghibli from "./sghibli.webp"
+import hashclothing from "./hashclothing.webp"
+import jslogo from "./jslogo.webp"
 
 export {
   logo,
@@ -42,8 +36,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -54,13 +46,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   byui,
-  carrent,
-  jobit,
-  tripguide,
   chrome,
+  studioghibli,
+  hashclothing,
+  jslogo,
 };

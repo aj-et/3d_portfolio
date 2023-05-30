@@ -13,18 +13,11 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
     byui,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
-    chrome,
+    studioghibli,
+    hashclothing,
+    jslogo,
   } from "../assets";
   
   export const navLinks = [
@@ -106,14 +99,6 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
   ];
   
   const experiences = [
@@ -201,7 +186,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent, //Change this image
+      image: hashclothing,
       source_code_link: "https://github.com/aj-et/capstone",
       live_demo_link: "https://hash-clothing.netlify.app/"
     },
@@ -223,7 +208,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit, // Change this image
+      image: studioghibli,
       source_code_link: "https://github.com/aj-et/studio-ghibli",
       live_demo_link: "https://studio-ghibli.aarontumbokon.com"
     },
@@ -245,7 +230,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide, // Change this image
+      image: jslogo,
       source_code_link: "https://github.com/aj-et/vanilla-javaScript-projects",
       live_demo_link: "https://vanilla-javascript.aarontumbokon.com"
     },
