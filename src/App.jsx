@@ -4,6 +4,10 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 
 const App = () => {
+  require("@babel/core").transform("code", {
+    plugins: ["transform-remove-console"]
+  });
+
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
