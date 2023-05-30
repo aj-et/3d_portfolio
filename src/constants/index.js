@@ -24,6 +24,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    chrome,
   } from "../assets";
   
   export const navLinks = [
@@ -183,58 +184,38 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Hash Clothing",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "E-commerce web application that allows users to view, add, and manage their cart, providing a clean and user-friendly UI for a clothing store.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "styled-components",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: carrent, //Change this image
+      source_code_link: "https://github.com/aj-et/capstone",
+      live_demo_link: "https://hash-clothing.netlify.app/"
     },
     {
-      name: "Job IT",
+      name: "Studio Ghibli",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that contains all of the studio ghibli movies, their description, and updates that studio ghibli is planning in the future.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -242,8 +223,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: jobit, // Change this image
+      source_code_link: "https://github.com/aj-et/studio-ghibli",
+      live_demo_link: "https://studio-ghibli.aarontumbokon.com"
+    },
+    {
+      name: "Vanilla Javascript ",
+      description:
+        "A compilation of javascript projects that do not use and library or dependencies. It shows my understanding of using pure javascript language.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide, // Change this image
+      source_code_link: "https://github.com/aj-et/vanilla-javaScript-projects",
+      live_demo_link: "https://vanilla-javascript.aarontumbokon.com"
     },
   ];
   
