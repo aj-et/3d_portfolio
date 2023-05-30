@@ -1,3 +1,7 @@
+require("@babel/core").transform("code", {
+  plugins: ["transform-remove-console"]
+});
+
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
