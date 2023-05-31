@@ -213,7 +213,7 @@ import {
       live_demo_link: "https://studio-ghibli.aarontumbokon.com"
     },
     {
-      name: "Vanilla Javascript ",
+      name: "Vanilla Javascript",
       description:
         "A compilation of javascript projects that do not use and library or dependencies. It shows my understanding of using pure javascript language.",
       tags: [
@@ -234,6 +234,28 @@ import {
       source_code_link: "https://github.com/aj-et/vanilla-javaScript-projects",
       live_demo_link: "https://vanilla-javascript.aarontumbokon.com"
     },
+    // {
+    //   name: "Add project",
+    //   description:
+    //     "Add description here",
+    //   tags: [
+    //     {
+    //       name: "html",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "javascript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jslogo,
+    //   source_code_link: "",
+    //   live_demo_link: ""
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
