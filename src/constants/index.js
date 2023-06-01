@@ -18,6 +18,7 @@ import {
     studioghibli,
     hashclothing,
     jslogo,
+    dalle,
   } from "../assets";
   
   export const navLinks = [
@@ -234,28 +235,28 @@ import {
       source_code_link: "https://github.com/aj-et/vanilla-javaScript-projects",
       live_demo_link: "https://vanilla-javascript.aarontumbokon.com"
     },
-    // {
-    //   name: "Add project",
-    //   description:
-    //     "Add description here",
-    //   tags: [
-    //     {
-    //       name: "html",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "javascript",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jslogo,
-    //   source_code_link: "",
-    //   live_demo_link: ""
-    // },
+    {
+      name: "DALL-E 2.1",
+      description:
+        "A web application that uses OpenAI api to generate images based on the text entered. This app lets you create and showcase images you generate.",
+      tags: [
+        {
+          name: "vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Open AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MERN stack",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dalle,
+      source_code_link: "https://github.com/aj-et/dalle_clone",
+      live_demo_link: "https://dall-e.hash-brown.dev/"
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -25,6 +25,7 @@ import byui from "./company/byui.png";
 import studioghibli from "./sghibli.webp"
 import hashclothing from "./hashclothing.webp"
 import jslogo from "./jslogo.webp"
+import dalle from "./dall-e_site.webp"
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   studioghibli,
   hashclothing,
   jslogo,
+  dalle,
 };
