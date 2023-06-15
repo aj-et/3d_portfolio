@@ -26,6 +26,7 @@ import studioghibli from "./sghibli.webp"
 import hashclothing from "./hashclothing.webp"
 import jslogo from "./jslogo.webp"
 import dalle from "./dall-e_site.webp"
+import carShowcase from "./car-showcase.webp"
 
 export {
   logo,
@@ -53,4 +54,5 @@ export {
   hashclothing,
   jslogo,
   dalle,
+  carShowcase,
 };

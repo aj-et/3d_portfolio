@@ -19,6 +19,7 @@ import {
     hashclothing,
     jslogo,
     dalle,
+    carShowcase,
   } from "../assets";
   
   export const navLinks = [
@@ -256,6 +257,28 @@ import {
       image: dalle,
       source_code_link: "https://github.com/aj-et/dalle_clone",
       live_demo_link: "https://dall-e.hash-brown.dev/"
+    },
+    {
+      name: "Car Showcase",
+      description:
+        "A web application that uses two API to get car data and car images. This app is from a YouTube tutorial JavaScript Mastery using Next.JS and Typescript.",
+      tags: [
+        {
+          name: "Next.JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carShowcase,
+      source_code_link: "https://github.com/aj-et/car_showcase",
+      live_demo_link: "https://car-showcase.hash-brown.dev/"
     },
   ];
   
