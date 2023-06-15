@@ -261,7 +261,7 @@ import {
     {
       name: "Car Showcase",
       description:
-        "A web application that uses two API to get car data and car images. This app is from a YouTube tutorial JavaScript Mastery using Next.JS and Typescript.",
+        "A web application that uses two API to get car data and car images. This app is from a YouTube tutorial JavaScript Mastery using Next.JS and JavaScript.",
       tags: [
         {
           name: "Next.JS",
@@ -272,7 +272,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "TypeScript",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
