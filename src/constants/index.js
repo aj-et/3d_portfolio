@@ -20,6 +20,7 @@ import {
     jslogo,
     dalle,
     carShowcase,
+    flexibble,
   } from "../assets";
   
   export const navLinks = [
@@ -279,6 +280,28 @@ import {
       image: carShowcase,
       source_code_link: "https://github.com/aj-et/car_showcase",
       live_demo_link: "https://car-showcase.hash-brown.dev/"
+    },
+    {
+      name: "Flexibble",
+      description:
+        "Flexibble is a Dribble clone. It is developed using NextJS framework featuring serverless backend, Grafbase and GraphQL. This project also features google sign in",
+      tags: [
+        {
+          name: "Next.JS 13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GraphQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: flexibble,
+      source_code_link: "https://github.com/aj-et/nextjs13_flexibble",
+      live_demo_link: "https://flexibble.hash-brown.dev/"
     },
   ];
   

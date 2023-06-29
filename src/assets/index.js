@@ -27,6 +27,7 @@ import hashclothing from "./hashclothing.webp"
 import jslogo from "./jslogo.webp"
 import dalle from "./dall-e_site.webp"
 import carShowcase from "./car-showcase.webp"
+import flexibble from "./flexibble.webp"
 
 export {
   logo,
@@ -55,4 +56,5 @@ export {
   jslogo,
   dalle,
   carShowcase,
+  flexibble,
 };
